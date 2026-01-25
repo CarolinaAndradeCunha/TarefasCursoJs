@@ -29,5 +29,15 @@ return {
 const pessoa1 = criarPessoa('Carol', 20);
 console.log(pessoa1.idade);
 
+/* 25.01.26 criação de datas 
+tarefa: mostrar o mês do ano */
+
+  const data = new Date('2026-01-25');
+  const meses = {
+    'janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'
+  }
+  console.log(meses, data.getMonth());
+
+  
 
 
