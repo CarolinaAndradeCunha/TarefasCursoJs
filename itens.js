@@ -33,9 +33,9 @@ console.log(pessoa1.idade);
 tarefa: mostrar o mês do ano */
 
   const data = new Date('2026-01-25');
-  const meses = {
+  const meses = [
     'janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'
-  }
+  ]
   console.log(meses, data.getMonth());
 
   
