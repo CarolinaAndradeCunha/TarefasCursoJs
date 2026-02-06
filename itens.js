@@ -38,6 +38,24 @@ tarefa: mostrar o mês do ano */
   ]
   console.log(meses, data.getMonth());
 
+  /* switch case
+  tarefas: 1- rota de entrega
+  2- if/else de alguém que vai tirar carta */
+
+  const idadeExigida = 18;
+  const idadeAtual = 15;
+
+  if (idadeAtual => idadeExigida) {
+    console.log('Você foi aprovado para tirar sua habilitação. Bem vindo(a) ao sistema!');
+  } else {
+    console.log('Sentimos muito, mas você precisa esperar um pouco mais para tirar sua habilitação.');
+    ]
   
-
-
+  
+/* Laço for 06-02-26 
+tarefa: criar tabuada do 2 */
+  
+for (let i = 1; i <= 10; i ++) {
+console.log('2x' + i + '=' + (2 * i));
+}
+  
