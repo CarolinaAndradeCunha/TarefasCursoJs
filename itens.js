@@ -6,11 +6,6 @@ if (a = b) {
 console.log("a é igual a b")
 } else {
   console.log("a não é igual a b")
-
-/* array */
-
-
-/* function */
   
 /*objeto*/
 const pessoa1 = {
@@ -42,6 +37,27 @@ tarefa: mostrar o mês do ano */
   tarefas: 1- rota de entrega
   2- if/else de alguém que vai tirar carta */
 
+  
+ let localAtual = 'correios';
+  switch(localAtual) {
+    case 'endereço de saída':
+      console.log('Seu produto ainda não saiu para entrega. Cheque novamente em breve.');
+      break;
+    case 'viajando':
+      console.log('Seu produto está viajando. Cheque novamente em breve para receber atualizações.')
+      break;
+    case 'correios':
+      console.log('Seu produto está nos correios. Em breve chegará a seu destino final!')
+      break;
+       case 'destino final':
+      console.log('Seu produto chegou!')
+      break;
+    default:
+      console.log('Algo deu errado. Por favor, entre em contato.);
+                  break;
+  }
+  
+  
   const idadeExigida = 18;
   const idadeAtual = 15;
 
